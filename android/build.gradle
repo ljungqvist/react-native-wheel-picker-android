@@ -34,6 +34,12 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url "https://maven.joyyinc.com/nexus/content/groups/public"
+    }
+}
+
 dependencies {
     implementation "com.android.support:appcompat-v7:${_supportLibVersion}"
     implementation "com.facebook.react:react-native:${_reactNativeVersion}"
